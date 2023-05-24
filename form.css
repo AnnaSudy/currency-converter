@@ -1,0 +1,43 @@
+.form {
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.form__label {
+  border: hsl(260, 10%, 70%) 1px solid;
+  padding: 3px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+.form__label:hover {
+  background-color: hsl(253, 26%, 93%);
+}
+
+.form__label:focus-visible {
+  outline: hsl(260, 10%, 50%) 1px solid;
+  border: none;
+}
+
+.form__fieldset {
+  border-color: hsl(261, 42%, 28%);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 300px;
+}
+
+.form__legend {
+  border: 1px hsl(261, 42%, 28%) 2px solid;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: hsl(261, 42%, 28%);
+  color: aliceblue;
+}

@@ -1,0 +1,12 @@
+.body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: auto;
+  resize: both;
+}

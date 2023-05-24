@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>przelicznik walut</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link href="body.css" rel="stylesheet" />
+    <link href="form.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carlito&family=Lobster&family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Raleway:wght@200&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <form class="form js-form">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Przelicznik walut</legend>
+        <p>
+          <label
+            >Podaj kwotę w PLN - zł:
+            <input
+              class="form__label js-labelAmount"
+              type="number"
+              step="1"
+              min="0"
+              autofocus
+              value="0"
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Wybierz walutę:
+            <select class="form__label js-labelCurrency">
+              <option value="€" selected>EUR - euro (€)</option>
+              <option value="$">USD - dolar amerykański ($)</option>
+              <option value="£">GBP - funt brytyjski (£)</option>
+            </select>
+          </label>
+        </p>
+        <p>Wynik: <strong class="js-formResult">0.00 €</strong></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
