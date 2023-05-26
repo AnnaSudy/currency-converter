@@ -24,9 +24,7 @@
 }
 
 .form__fieldset {
-  border-color: hsl(261, 42%, 28%);
-  border-width: 2px;
-  border-style: solid;
+  border: 2px solid hsl(261, 42%, 28%);
   border-radius: 10px;
   background-color: white;
   padding-left: 30px;
